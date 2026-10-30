@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "manuscript": "gamma8_consolidated.pdf",
+  "gamma": 8,
+  "external_case_theorems": {
+    "source": "https://arxiv.org/pdf/2402.18939v1",
+    "BKR_Theorem_4": [
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "BKR_Theorem_5": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "external_classical_inputs": [
+    "Canonical/density/rational-isotropy reduction",
+    "Ternary minimum and binary Gauss bounds",
+    "Dumir square completion",
+    "Jackson zero-form gap bound",
+    "Macbeath lemma"
+  ],
+  "components": [
+    {
+      "directory": "large_a",
+      "section": 5,
+      "checker": "verify.py",
+      "certificates": 72,
+      "nodes": 1368,
+      "leaves": 720,
+      "target": "0<Q<Delta<d",
+      "models": [
+        "model.py"
+      ]
+    },
+    {
+      "directory": "case21",
+      "section": 6,
+      "checker": "verify_all.py",
+      "certificates": 5,
+      "nodes": 1547,
+      "leaves": 776,
+      "target": "0<Q<d",
+      "models": [
+        "ternary_model.py",
+        "diagonal_model.py"
+      ]
+    },
+    {
+      "directory": "case22",
+      "section": 7,
+      "checker": "verify_all.py",
+      "certificates": 7,
+      "nodes": 23829,
+      "leaves": 11918,
+      "target": "0<Q<d",
+      "models": [
+        "model.py",
+        "four_families_model.py"
+      ]
+    },
+    {
+      "directory": "case11",
+      "section": 8,
+      "checker": "verify_all.py",
+      "certificates": 4,
+      "nodes": 4982,
+      "leaves": 2493,
+      "target": "0<Q<=d",
+      "models": [
+        "model.py"
+      ]
+    },
+    {
+      "directory": "case12",
+      "section": 9,
+      "checker": "verify_all.py",
+      "certificates": 22,
+      "nodes": 19104,
+      "leaves": 9563,
+      "target": "0<Q<=d",
+      "models": [
+        "model.py",
+        "four_families_model.py",
+        "binary_resonance_model.py"
+      ]
+    }
+  ],
+  "totals": {
+    "certificates": 110,
+    "nodes": 50830,
+    "leaves": 25470,
+    "strict_zero_rhs_leaves": 381
+  },
+  "superseded_and_excluded": [
+    "The 2577-node (2,1) exception-only certificate",
+    "The 25011-node old final-Section-11 certificate",
+    "Standalone historical proof PDFs and progress notes"
+  ]
+}

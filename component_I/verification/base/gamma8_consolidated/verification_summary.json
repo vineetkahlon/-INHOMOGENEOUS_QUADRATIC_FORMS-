@@ -1,0 +1,1893 @@
+{
+  "result": "All 110 certificates verified exactly.",
+  "scope": "Finite certificates and scalar/coordinate audits for gamma8_consolidated.pdf. Analytic inclusions, classical inputs and BKR Theorems 4\u20135 are stated in the manuscript and are not formalized here.",
+  "target": "0 < Q <= (8 |det Q|)^(1/5)",
+  "certificate_count": 110,
+  "nodes": 50830,
+  "leaves": 25470,
+  "strict_zero_rhs_leaves": 381,
+  "global_scalar_audit": {
+    "classification": "passed",
+    "sharpness": "passed",
+    "odd_residue_tuples": 1024
+  },
+  "supplementary_audits": {
+    "large_a/audit_identity.py": {
+      "lifting_checks": 1080,
+      "invalid_certificate_checks": 3,
+      "result": "passed"
+    },
+    "case21/audit_identities.py": {
+      "ternary_domain_points": 120,
+      "ternary_original_Q_identities": 480,
+      "diagonal_domain_points": 432,
+      "diagonal_original_Q_identities": 1728,
+      "malformed_proofs_rejected": 4
+    },
+    "case12/audit_identities.py": {
+      "exact_lifting_checks": 2430,
+      "physical_root_points": 27,
+      "invalid_certificate_checks": 4,
+      "result": "passed"
+    }
+  },
+  "certificate_sha256": {
+    "large_a/certificates/family_00.json": "a336882aa5b2c04a7745f6f99ffa1d892bf977abf48c743b1358ba9049a7de3a",
+    "large_a/certificates/family_01.json": "6c876030bab69f93adb17e85ca1094f6bcafe20e7e638e413ebc9c72f52f984a",
+    "large_a/certificates/family_02.json": "5c3db97d16fcb61aa6ca8a33dc6eab47ca31d3b16b081e5e1732cbca09d9adbf",
+    "large_a/certificates/family_03.json": "e37f9c32054a30a2f7d5d999f4ef2e7c0e771f5b5c9b1400f3e9e15646d94f67",
+    "large_a/certificates/family_04.json": "354cab47457d1448651395b6b96271bc71066e7cd9d290b47221efc07768801e",
+    "large_a/certificates/family_05.json": "d86905829d4f18cceb4b6b8cace91d8ff42bd129eca81e886a161c98851661b1",
+    "large_a/certificates/family_06.json": "116442d0f20e781cc7cdd832d9ad011667cdc1d5c69a93cc13cd58ba62e3ea88",
+    "large_a/certificates/family_07.json": "6096e6de6f512dc665ffd22e9c36c1c534af005042c8354354af7f6ad6e850d5",
+    "large_a/certificates/family_08.json": "87869f8ca5f90d267175b1817ca91012dca8d539f89318fdca282284026aec69",
+    "large_a/certificates/family_09.json": "3cbbf4f0379e8ce8a1dd52eac2eadffd9129cdc76ef5c63316b3801579cf3194",
+    "large_a/certificates/family_10.json": "e37b6d5365ac89ed346ee66882430e0bdb778f8793998956d1c9b7cb7356f8e0",
+    "large_a/certificates/family_11.json": "eebd3819f86fa26d649969386a9b1ba97af234a39b65d2e63cb3d143792c8c58",
+    "large_a/certificates/family_12.json": "d1e4a1a809e1e4c347ebc06458f005359a4ecfb410b38e972da561e07e9091c4",
+    "large_a/certificates/family_13.json": "e9ff537cd79985dca7f77fe9436839ed6e77b98f94044818e1c7c0035c4e12c2",
+    "large_a/certificates/family_14.json": "d66e0cc5478cb958c6fdf1e332a439b2fdf8e7a11a19ed5128bb3dd629d07287",
+    "large_a/certificates/family_15.json": "ead691622a6cd4b17d8db2f33a0b54b382d640a03f5c28697366e90a78106231",
+    "large_a/certificates/family_16.json": "2d22d21743a3eaf8d742282d7a9a0debdf80911c8d06871247f7718b179f93de",
+    "large_a/certificates/family_17.json": "f241f7f3e9cf55f73ddd53eeb85c8a0111b47326971e14ee038f7d975f738e4e",
+    "large_a/certificates/family_18.json": "3717a96123c02b493a203c668a64a187ab85f26fa380c95722bda686d955f78e",
+    "large_a/certificates/family_19.json": "a06775f75a40a38cc7d15673efab66579fa029861d32369d2d30c620bb8be8e1",
+    "large_a/certificates/family_20.json": "5aff7e1d4097b14ce65bca19150be36fb1d426f38a186b3a8e4feb12b310dc21",
+    "large_a/certificates/family_21.json": "b44e70ea9902578638e1f9762c676b4c163a88fccc7ee0d647ea67c676283270",
+    "large_a/certificates/family_22.json": "0e01978c0530ec37e2e52c7f6ccea2d02248b13e654cacdaf04fd90a7107d04f",
+    "large_a/certificates/family_23.json": "ed0a28c5531a6ffbf4a38f815b91657f78c7ffb032a36c27d8a4b3e5bd5f7e18",
+    "large_a/certificates/family_24.json": "6d546be8b4d33bbfcb418ad9258086643c1f80a74ec3754ffc63b4ceb36b5461",
+    "large_a/certificates/family_25.json": "39309b87434a21a3e9e589e862263c07723911e745943afb2af0ea9d6e990be9",
+    "large_a/certificates/family_26.json": "85fbca1db17b1933dfee1e2becec02254b0645b73dc82cf93ab6cc9c98ab79bb",
+    "large_a/certificates/family_27.json": "e9cef7df1d321026a75e00af1f42ec5f539f51abc8320bcdcdacf15869547e24",
+    "large_a/certificates/family_28.json": "117415c9dd15a7043164709d3fab4db77367a04cce461052ca8fb948169df36a",
+    "large_a/certificates/family_29.json": "1c1c970ea8c6e7eb2b6ab285f12439d68d29a1750ef25802ed6c4196d9997284",
+    "large_a/certificates/family_30.json": "479e8b2830117855dbe7fc25af7e79ee27f02ff371f73946fdd07fd34fe18540",
+    "large_a/certificates/family_31.json": "82a0c88b2b6d3b75830ea82629c1b78d6e57dc36f4ce0b8792816850fe531b98",
+    "large_a/certificates/family_32.json": "30fd33ea127153eb8ac42bc7d8a147797fca7195e84ece4d592c972c6df07f31",
+    "large_a/certificates/family_33.json": "a0dd4d376047f25260c2b66cfe1ff0b36f7f26055655f4c637d6f90cbb0c8836",
+    "large_a/certificates/family_34.json": "43e84954f1b4beb798098d5eadb15d05427638ea2e6e98f827741e96518cf7eb",
+    "large_a/certificates/family_35.json": "41dbbd9fe4b95f06e8c575e3bbd724e82928c0dd9bb3c6cb5817ae21ba9a7567",
+    "large_a/certificates/family_36.json": "1093c9ce60f68d6098e94eccfd0ef1d83e3863526cbf68eb34b49d690af150de",
+    "large_a/certificates/family_37.json": "2f4ef26ff395157951eec64edeeafc6f49df283d89007f7341faf4dd1d07fe3a",
+    "large_a/certificates/family_38.json": "bfa2c9ddfa95c30dc536f2e4fb238e9cba2d19e299e6704ef7d86ecae94bf550",
+    "large_a/certificates/family_39.json": "d8b40010321b37138855827836f919df65181e5d41dae27d6a8cf3c0b75a1280",
+    "large_a/certificates/family_40.json": "bdd8b56678f8dd1f0689e292cab289ecd5a21b17dc97ae79b113b2021b9c8fb7",
+    "large_a/certificates/family_41.json": "593cfe377c53c2ebb0efbedd9899e12cb9898cd85024ca579c98611ec7fd555c",
+    "large_a/certificates/family_42.json": "2091803a77653fc5492f6218d9af6a0471b2c88663a53cf561ca96749953c8a2",
+    "large_a/certificates/family_43.json": "a936dc4cb50d56a4563d403b4f5976165f62647a47b461c97466026e13ef9747",
+    "large_a/certificates/family_44.json": "d6ad8c663b7a7e43ef6a6aeac6e972935285a5c1bb62475332b576d1585b0adc",
+    "large_a/certificates/family_45.json": "86d2b290c4bfbc4966e81909eb5ce8ba24fd74dd8a99f1cf8bb731b52aba6608",
+    "large_a/certificates/family_46.json": "0e1df23bf439f45b72eba446c732b958d94fd723f967e6b957a2c3cedd2ef8d4",
+    "large_a/certificates/family_47.json": "bfcb9597c002516379e05222686ee2738b1055148c3eb6c45296ec5a7b9074a4",
+    "large_a/certificates/family_48.json": "86523b342e9577a8536c8e4939606a78b912491313f33f2c4491ab53b4b146f5",
+    "large_a/certificates/family_49.json": "44f7cea37b5235ddaf3736f79afc5a02c93aa733bd478fd34cf6f703453e1ae7",
+    "large_a/certificates/family_50.json": "8366d951a8d2d1820ed070acdbb4ec5a7abab58f739cba9ba0efe37f15a318f2",
+    "large_a/certificates/family_51.json": "acfe1612fa4ca70e6d66c9dd960add661821b18dce4a8305241cc9e6ef910853",
+    "large_a/certificates/family_52.json": "5fbbe1077eea79a3ca1425ade155c52d8e5623f431df57d4df8643207f017c24",
+    "large_a/certificates/family_53.json": "5792e37ee526e8d23e317ec6f7c602498de2fb698ee6131d02cc5d1ae2d1593b",
+    "large_a/certificates/family_54.json": "f4478cc95a19c7fb9fbb0b944f08a26666ba3277fa833bbe3086c761f3f9dc4f",
+    "large_a/certificates/family_55.json": "5cf3a85011de7727b9a8859dfe422f7fed866ccd645df8fb43718aa39ccce92b",
+    "large_a/certificates/family_56.json": "4e89e8baca35304da11ea4be5b43bdbeef0bda8187390fed9666856c105fe631",
+    "large_a/certificates/family_57.json": "388b5ccc6872c70de1d088702f6c230494b54320a085634a1838052c92ec879f",
+    "large_a/certificates/family_58.json": "ad186ed28b2be296be4d2919122f68267d662d7c4b368409e9407bb45b05c584",
+    "large_a/certificates/family_59.json": "9f02400fa77e755ca38462f7dba9c330a97cb346f6b6db5bba89c5d2d32aaf9f",
+    "large_a/certificates/family_60.json": "7a88fe4856bf90870aca84901c7363a545c4ad4fada8d65af28b104dc8bec700",
+    "large_a/certificates/family_61.json": "71b7b33754bb60372e1505cb6efac281ced73ccf260d3f4719869a7aeb99ab9b",
+    "large_a/certificates/family_62.json": "db34e18ed8b24d0cda54d785a2c058d7facaf9adfe764d9fcc6f5bc3b87dac1b",
+    "large_a/certificates/family_63.json": "ca52ce092f599c75a0947750ff92fbc28241317e66033f04ab4f6535088e9e4b",
+    "large_a/certificates/family_64.json": "e177849ec3f98dd7c7b8d0b656a287291c68a3be29bd8d7ef3b0471b47771954",
+    "large_a/certificates/family_65.json": "f581d4824e02975993faf6301ef0b9f8e8060d9e6454d08f2e0e68457d2aaad1",
+    "large_a/certificates/family_66.json": "f99101d915fe9907020034dc947eaa90ea5c17f0f658dce354a37c38446640ed",
+    "large_a/certificates/family_67.json": "79f176185bab667ddf57b1f5823938102c564c023066826514627b80c861d795",
+    "large_a/certificates/family_68.json": "5188190340b346585cab28a63c86999bd86214c89cd05ebfe675a6d0a06da85e",
+    "large_a/certificates/family_69.json": "9469bbd8536b024b0d9c3c9205a8e818644b911775b94972397ca5c8ecb5906b",
+    "large_a/certificates/family_70.json": "79482b2d4e6eaf7e61a10747009ab433123f5ca85bc239fd3038833577691462",
+    "large_a/certificates/family_71.json": "7fb4f5e569c694a88e60e0f1a1d5bd3835d62f1509546463d5b63e977780afd8",
+    "case21/certificates/diagonal_0.json": "62c29ae32109c61145c7bab5a1a3d349eb07381ca8c42c65ed6194b5331d0209",
+    "case21/certificates/diagonal_1.json": "e434d85009bd64d983853d0d1af9daddb7da86a32e37c5b2216e1c6a09f9d23f",
+    "case21/certificates/diagonal_2.json": "ba19cf5466cf5bdfa90bdd4966591b3d2c96ac4907626aa009cb27eb31120e5c",
+    "case21/certificates/low_minus.json": "4b0571e7b6e853b1f1d601d41320200dec54b3ea162141ea1b24b5ea7fe7465e",
+    "case21/certificates/low_plus.json": "4c3d653cbc6c5b637394acd530a4aa4f6f61f93e22f8faa79e2ef0d3d4422364",
+    "case22/certificates/L2.json": "298230c6688a5ea5b3696c3dc3c485e4861829d3d5e4de3f233b82b22730161c",
+    "case22/certificates/L3.json": "8a512ce5aad27acf838140c08b4b142726273b0e5f582a1a324c796392247efd",
+    "case22/certificates/L4.json": "b2921582868b6130b926df8a1cae75b7004d90cea38c38ee09f2efbfdbdd5770",
+    "case22/certificates/family_0.json": "88079b5a5047fee5b156fcfc5860dd7170c289b51743c0766dc1fdcc69adbc39",
+    "case22/certificates/family_1.json": "241431d61753a39f4e9981c727428c72b88a03596a174329990f35f9d3e89e23",
+    "case22/certificates/family_2.json": "0b2477c55f3844d6679c103b855191668e237a12dd45cf048ef0cacadada6cff",
+    "case22/certificates/family_3.json": "b89746d5a969d1c99f99c2cb055f216ad3c2b9084ef11bc7dc0490d8857ca686",
+    "case11/certificates/L1_pn.json": "53317367f3c3d0a6792cc3307eb73fb54c78a22eeab6a19060c59f1970858b7e",
+    "case11/certificates/L1_pp.json": "71f42d2190b876135e42e129aa0e9092f1f4850985ceaa3c824968e9e4e1cd25",
+    "case11/certificates/L2_pn.json": "5366269ef85130ca209dfd1bb7eccb943bc6e512d2a7c4d1127949220cf5cf24",
+    "case11/certificates/L2_pp.json": "77224fa0b322ab28fde96f192e674f8cbbd8238923edb4c5d26e2a8554be604c",
+    "case12/certificates/L1_A_high_pn.json": "46a874ece20fd5c3291997e401bb43effeecd59f8210e6abc3ec94d7292f2dc7",
+    "case12/certificates/L1_A_high_pp.json": "0bad12a000e864c82d36ed92dbaa7cf0f29b73a48a7b9000ceaf78f9038560ff",
+    "case12/certificates/L1_A_low_pn.json": "2d1aae62d143724f310bc38b5c4d5c9ff456c54efa7e3f34b526f4fa8f35017f",
+    "case12/certificates/L1_A_low_pp.json": "c50610fc2e28e6fb1880ba8a89a33f1328b0233b4d5f111a583f440b05828b79",
+    "case12/certificates/L1_outer_pn.json": "e1fe9ed6e50a6adfaf308cd4ecee2abc2acc928f4e8ce7bf2555eaac7570f282",
+    "case12/certificates/L1_outer_pp.json": "9216f842230b921c22b806184ac75b0645e476f9e6664f7e700a48846183b81b",
+    "case12/certificates/L2_pn.json": "daffa0f3e13554536401e6da963c3dbd75f6fe5864aa206f8ff70eb1e1aa5812",
+    "case12/certificates/L2_pp.json": "f107d2c889ed4de6c76a980fa4c487f4a0c86dbbacaa9e579b9f63d6be60c7f3",
+    "case12/certificates/L3_high_pn.json": "d0d51b690e0a620d53709667846bd956acca4ce9cabece1144592082a1369abd",
+    "case12/certificates/L3_high_pp.json": "a3df7099c9bd41c97134985c3929e61b971a40b63930e2842ae26dc368a86b69",
+    "case12/certificates/L3_low_pna.json": "554d83c4d16951b1679fb9c45d256ad5fc3db46e64a57e694f52554df4fd63c9",
+    "case12/certificates/L3_low_pnb.json": "67f17ae2d997479024026f3cb53e00600615a650773c65f96212c509e10d4de2",
+    "case12/certificates/L3_low_ppa.json": "af8ae21914e68fa1d657b6a76af31460b1ac0068bb4c36295d3390ad4ce63291",
+    "case12/certificates/L3_low_ppb.json": "9b918cfd69a726d59597c990d9b88fdbf3f98c4aa5b811970351ac529ee5ed03",
+    "case12/certificates/L4_pn.json": "f38715309ffd13e35ab0000ca255a26760e3df008ef4f3cdc2527744874eb6bc",
+    "case12/certificates/L4_pp.json": "759d758f62e02a93b9f8565b0c38eac3d34bc9a980b965a2c6fe5e578297261b",
+    "case12/certificates/four_0.json": "5b042761a97b202aa23394b51bc0b7fbdb23a2513eaa2e3841c9b2aac5884c69",
+    "case12/certificates/four_1.json": "3112065c81c00f3441d8824e23c2bf6e554149d18dfe89a6995f510baf3360e7",
+    "case12/certificates/four_2.json": "f034ab400f61cb584e782b96a34f9f2281027b5c4f5e5fc4dbfd3f9ef7e6cf09",
+    "case12/certificates/four_3.json": "90069be504bd95b4d651eadb470da4cd95f4410ece819ef223cb9ebeb4e90f92",
+    "case12/certificates/resonance_0.json": "4e520d345cab15d86fe4cc69086da21b93831368803d086755122a541fc0803d",
+    "case12/certificates/resonance_1.json": "c3de35045bbbea1e58ef322a9c8c18505a3dfe19172c80e05043cc472d7155a8"
+  },
+  "components": {
+    "large_a": {
+      "result": "All 72 forced families and Section 4 scalar comparisons verified exactly.",
+      "nodes": 1368,
+      "leaves": 720,
+      "families": [
+        {
+          "file": "certificates/family_00.json",
+          "sha256": "a336882aa5b2c04a7745f6f99ffa1d892bf977abf48c743b1358ba9049a7de3a",
+          "family": 0,
+          "kind": 1,
+          "nodes": 31,
+          "leaves": 16,
+          "x2_values": [
+            -4,
+            -3,
+            -2,
+            -1,
+            1,
+            4
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_01.json",
+          "sha256": "6c876030bab69f93adb17e85ca1094f6bcafe20e7e638e413ebc9c72f52f984a",
+          "family": 1,
+          "kind": 1,
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_02.json",
+          "sha256": "5c3db97d16fcb61aa6ca8a33dc6eab47ca31d3b16b081e5e1732cbca09d9adbf",
+          "family": 2,
+          "kind": 1,
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_03.json",
+          "sha256": "e37f9c32054a30a2f7d5d999f4ef2e7c0e771f5b5c9b1400f3e9e15646d94f67",
+          "family": 3,
+          "kind": 1,
+          "nodes": 31,
+          "leaves": 16,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_04.json",
+          "sha256": "354cab47457d1448651395b6b96271bc71066e7cd9d290b47221efc07768801e",
+          "family": 4,
+          "kind": 1,
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_05.json",
+          "sha256": "d86905829d4f18cceb4b6b8cace91d8ff42bd129eca81e886a161c98851661b1",
+          "family": 5,
+          "kind": 1,
+          "nodes": 31,
+          "leaves": 16,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_06.json",
+          "sha256": "116442d0f20e781cc7cdd832d9ad011667cdc1d5c69a93cc13cd58ba62e3ea88",
+          "family": 6,
+          "kind": 1,
+          "nodes": 31,
+          "leaves": 16,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_07.json",
+          "sha256": "6096e6de6f512dc665ffd22e9c36c1c534af005042c8354354af7f6ad6e850d5",
+          "family": 7,
+          "kind": 1,
+          "nodes": 27,
+          "leaves": 14,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_08.json",
+          "sha256": "87869f8ca5f90d267175b1817ca91012dca8d539f89318fdca282284026aec69",
+          "family": 8,
+          "kind": 2,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -4,
+            -2,
+            -1,
+            1,
+            2,
+            4
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_09.json",
+          "sha256": "3cbbf4f0379e8ce8a1dd52eac2eadffd9129cdc76ef5c63316b3801579cf3194",
+          "family": 9,
+          "kind": 2,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_10.json",
+          "sha256": "e37b6d5365ac89ed346ee66882430e0bdb778f8793998956d1c9b7cb7356f8e0",
+          "family": 10,
+          "kind": 2,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_11.json",
+          "sha256": "eebd3819f86fa26d649969386a9b1ba97af234a39b65d2e63cb3d143792c8c58",
+          "family": 11,
+          "kind": 2,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_12.json",
+          "sha256": "d1e4a1a809e1e4c347ebc06458f005359a4ecfb410b38e972da561e07e9091c4",
+          "family": 12,
+          "kind": 2,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_13.json",
+          "sha256": "e9ff537cd79985dca7f77fe9436839ed6e77b98f94044818e1c7c0035c4e12c2",
+          "family": 13,
+          "kind": 2,
+          "nodes": 25,
+          "leaves": 13,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_14.json",
+          "sha256": "d66e0cc5478cb958c6fdf1e332a439b2fdf8e7a11a19ed5128bb3dd629d07287",
+          "family": 14,
+          "kind": 2,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_15.json",
+          "sha256": "ead691622a6cd4b17d8db2f33a0b54b382d640a03f5c28697366e90a78106231",
+          "family": 15,
+          "kind": 2,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_16.json",
+          "sha256": "2d22d21743a3eaf8d742282d7a9a0debdf80911c8d06871247f7718b179f93de",
+          "family": 16,
+          "kind": 2,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_17.json",
+          "sha256": "f241f7f3e9cf55f73ddd53eeb85c8a0111b47326971e14ee038f7d975f738e4e",
+          "family": 17,
+          "kind": 2,
+          "nodes": 25,
+          "leaves": 13,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_18.json",
+          "sha256": "3717a96123c02b493a203c668a64a187ab85f26fa380c95722bda686d955f78e",
+          "family": 18,
+          "kind": 2,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_19.json",
+          "sha256": "a06775f75a40a38cc7d15673efab66579fa029861d32369d2d30c620bb8be8e1",
+          "family": 19,
+          "kind": 2,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_20.json",
+          "sha256": "5aff7e1d4097b14ce65bca19150be36fb1d426f38a186b3a8e4feb12b310dc21",
+          "family": 20,
+          "kind": 2,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_21.json",
+          "sha256": "b44e70ea9902578638e1f9762c676b4c163a88fccc7ee0d647ea67c676283270",
+          "family": 21,
+          "kind": 2,
+          "nodes": 25,
+          "leaves": 13,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_22.json",
+          "sha256": "0e01978c0530ec37e2e52c7f6ccea2d02248b13e654cacdaf04fd90a7107d04f",
+          "family": 22,
+          "kind": 2,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_23.json",
+          "sha256": "ed0a28c5531a6ffbf4a38f815b91657f78c7ffb032a36c27d8a4b3e5bd5f7e18",
+          "family": 23,
+          "kind": 2,
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_24.json",
+          "sha256": "6d546be8b4d33bbfcb418ad9258086643c1f80a74ec3754ffc63b4ceb36b5461",
+          "family": 24,
+          "kind": 3,
+          "nodes": 13,
+          "leaves": 7,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_25.json",
+          "sha256": "39309b87434a21a3e9e589e862263c07723911e745943afb2af0ea9d6e990be9",
+          "family": 25,
+          "kind": 3,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_26.json",
+          "sha256": "85fbca1db17b1933dfee1e2becec02254b0645b73dc82cf93ab6cc9c98ab79bb",
+          "family": 26,
+          "kind": 3,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_27.json",
+          "sha256": "e9cef7df1d321026a75e00af1f42ec5f539f51abc8320bcdcdacf15869547e24",
+          "family": 27,
+          "kind": 3,
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_28.json",
+          "sha256": "117415c9dd15a7043164709d3fab4db77367a04cce461052ca8fb948169df36a",
+          "family": 28,
+          "kind": 3,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_29.json",
+          "sha256": "1c1c970ea8c6e7eb2b6ab285f12439d68d29a1750ef25802ed6c4196d9997284",
+          "family": 29,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_30.json",
+          "sha256": "479e8b2830117855dbe7fc25af7e79ee27f02ff371f73946fdd07fd34fe18540",
+          "family": 30,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_31.json",
+          "sha256": "82a0c88b2b6d3b75830ea82629c1b78d6e57dc36f4ce0b8792816850fe531b98",
+          "family": 31,
+          "kind": 3,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_32.json",
+          "sha256": "30fd33ea127153eb8ac42bc7d8a147797fca7195e84ece4d592c972c6df07f31",
+          "family": 32,
+          "kind": 3,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_33.json",
+          "sha256": "a0dd4d376047f25260c2b66cfe1ff0b36f7f26055655f4c637d6f90cbb0c8836",
+          "family": 33,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_34.json",
+          "sha256": "43e84954f1b4beb798098d5eadb15d05427638ea2e6e98f827741e96518cf7eb",
+          "family": 34,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_35.json",
+          "sha256": "41dbbd9fe4b95f06e8c575e3bbd724e82928c0dd9bb3c6cb5817ae21ba9a7567",
+          "family": 35,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_36.json",
+          "sha256": "1093c9ce60f68d6098e94eccfd0ef1d83e3863526cbf68eb34b49d690af150de",
+          "family": 36,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_37.json",
+          "sha256": "2f4ef26ff395157951eec64edeeafc6f49df283d89007f7341faf4dd1d07fe3a",
+          "family": 37,
+          "kind": 3,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_38.json",
+          "sha256": "bfa2c9ddfa95c30dc536f2e4fb238e9cba2d19e299e6704ef7d86ecae94bf550",
+          "family": 38,
+          "kind": 3,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_39.json",
+          "sha256": "d8b40010321b37138855827836f919df65181e5d41dae27d6a8cf3c0b75a1280",
+          "family": 39,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_40.json",
+          "sha256": "bdd8b56678f8dd1f0689e292cab289ecd5a21b17dc97ae79b113b2021b9c8fb7",
+          "family": 40,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_41.json",
+          "sha256": "593cfe377c53c2ebb0efbedd9899e12cb9898cd85024ca579c98611ec7fd555c",
+          "family": 41,
+          "kind": 3,
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_42.json",
+          "sha256": "2091803a77653fc5492f6218d9af6a0471b2c88663a53cf561ca96749953c8a2",
+          "family": 42,
+          "kind": 3,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_43.json",
+          "sha256": "a936dc4cb50d56a4563d403b4f5976165f62647a47b461c97466026e13ef9747",
+          "family": 43,
+          "kind": 3,
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_44.json",
+          "sha256": "d6ad8c663b7a7e43ef6a6aeac6e972935285a5c1bb62475332b576d1585b0adc",
+          "family": 44,
+          "kind": 3,
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_45.json",
+          "sha256": "86d2b290c4bfbc4966e81909eb5ce8ba24fd74dd8a99f1cf8bb731b52aba6608",
+          "family": 45,
+          "kind": 3,
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_46.json",
+          "sha256": "0e1df23bf439f45b72eba446c732b958d94fd723f967e6b957a2c3cedd2ef8d4",
+          "family": 46,
+          "kind": 3,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_47.json",
+          "sha256": "bfcb9597c002516379e05222686ee2738b1055148c3eb6c45296ec5a7b9074a4",
+          "family": 47,
+          "kind": 3,
+          "nodes": 21,
+          "leaves": 11,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_48.json",
+          "sha256": "86523b342e9577a8536c8e4939606a78b912491313f33f2c4491ab53b4b146f5",
+          "family": 48,
+          "kind": "hex",
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_49.json",
+          "sha256": "44f7cea37b5235ddaf3736f79afc5a02c93aa733bd478fd34cf6f703453e1ae7",
+          "family": 49,
+          "kind": "hex",
+          "nodes": 13,
+          "leaves": 7,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_50.json",
+          "sha256": "8366d951a8d2d1820ed070acdbb4ec5a7abab58f739cba9ba0efe37f15a318f2",
+          "family": 50,
+          "kind": "hex",
+          "nodes": 13,
+          "leaves": 7,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_51.json",
+          "sha256": "acfe1612fa4ca70e6d66c9dd960add661821b18dce4a8305241cc9e6ef910853",
+          "family": 51,
+          "kind": "hex",
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_52.json",
+          "sha256": "5fbbe1077eea79a3ca1425ade155c52d8e5623f431df57d4df8643207f017c24",
+          "family": 52,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_53.json",
+          "sha256": "5792e37ee526e8d23e317ec6f7c602498de2fb698ee6131d02cc5d1ae2d1593b",
+          "family": 53,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_54.json",
+          "sha256": "f4478cc95a19c7fb9fbb0b944f08a26666ba3277fa833bbe3086c761f3f9dc4f",
+          "family": 54,
+          "kind": "hex",
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_55.json",
+          "sha256": "5cf3a85011de7727b9a8859dfe422f7fed866ccd645df8fb43718aa39ccce92b",
+          "family": 55,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_56.json",
+          "sha256": "4e89e8baca35304da11ea4be5b43bdbeef0bda8187390fed9666856c105fe631",
+          "family": 56,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_57.json",
+          "sha256": "388b5ccc6872c70de1d088702f6c230494b54320a085634a1838052c92ec879f",
+          "family": 57,
+          "kind": "hex",
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_58.json",
+          "sha256": "ad186ed28b2be296be4d2919122f68267d662d7c4b368409e9407bb45b05c584",
+          "family": 58,
+          "kind": "hex",
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_59.json",
+          "sha256": "9f02400fa77e755ca38462f7dba9c330a97cb346f6b6db5bba89c5d2d32aaf9f",
+          "family": 59,
+          "kind": "hex",
+          "nodes": 19,
+          "leaves": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_60.json",
+          "sha256": "7a88fe4856bf90870aca84901c7363a545c4ad4fada8d65af28b104dc8bec700",
+          "family": 60,
+          "kind": "hex",
+          "nodes": 23,
+          "leaves": 12,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_61.json",
+          "sha256": "71b7b33754bb60372e1505cb6efac281ced73ccf260d3f4719869a7aeb99ab9b",
+          "family": 61,
+          "kind": "hex",
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_62.json",
+          "sha256": "db34e18ed8b24d0cda54d785a2c058d7facaf9adfe764d9fcc6f5bc3b87dac1b",
+          "family": 62,
+          "kind": "hex",
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_63.json",
+          "sha256": "ca52ce092f599c75a0947750ff92fbc28241317e66033f04ab4f6535088e9e4b",
+          "family": 63,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_64.json",
+          "sha256": "e177849ec3f98dd7c7b8d0b656a287291c68a3be29bd8d7ef3b0471b47771954",
+          "family": 64,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_65.json",
+          "sha256": "f581d4824e02975993faf6301ef0b9f8e8060d9e6454d08f2e0e68457d2aaad1",
+          "family": 65,
+          "kind": "hex",
+          "nodes": 13,
+          "leaves": 7,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_66.json",
+          "sha256": "f99101d915fe9907020034dc947eaa90ea5c17f0f658dce354a37c38446640ed",
+          "family": 66,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_67.json",
+          "sha256": "79f176185bab667ddf57b1f5823938102c564c023066826514627b80c861d795",
+          "family": 67,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_68.json",
+          "sha256": "5188190340b346585cab28a63c86999bd86214c89cd05ebfe675a6d0a06da85e",
+          "family": 68,
+          "kind": "hex",
+          "nodes": 13,
+          "leaves": 7,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_69.json",
+          "sha256": "9469bbd8536b024b0d9c3c9205a8e818644b911775b94972397ca5c8ecb5906b",
+          "family": 69,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_70.json",
+          "sha256": "79482b2d4e6eaf7e61a10747009ab433123f5ca85bc239fd3038833577691462",
+          "family": 70,
+          "kind": "hex",
+          "nodes": 17,
+          "leaves": 9,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_71.json",
+          "sha256": "7fb4f5e569c694a88e60e0f1a1d5bd3835d62f1509546463d5b63e977780afd8",
+          "family": 71,
+          "kind": "hex",
+          "nodes": 15,
+          "leaves": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_w": 1,
+          "verified_exactly": true
+        }
+      ]
+    },
+    "case21": {
+      "certificates": 5,
+      "nodes": 1547,
+      "leaves": 776,
+      "scalar_checks": 8,
+      "target": "0<Q<d",
+      "verified_exactly": true,
+      "results": [
+        {
+          "domain": {
+            "kind": "ternary",
+            "sign": 1
+          },
+          "nodes": 561,
+          "leaves": 281,
+          "witness_vectors": 38,
+          "x2_values": [
+            1
+          ],
+          "max_abs_j": 2,
+          "max_abs_integer_negative_coordinate": 2,
+          "strict_upper_bound": true,
+          "verified_exactly": true
+        },
+        {
+          "domain": {
+            "kind": "ternary",
+            "sign": -1
+          },
+          "nodes": 489,
+          "leaves": 245,
+          "witness_vectors": 38,
+          "x2_values": [
+            1
+          ],
+          "max_abs_j": 2,
+          "max_abs_integer_negative_coordinate": 2,
+          "strict_upper_bound": true,
+          "verified_exactly": true
+        },
+        {
+          "domain": {
+            "kind": "diagonal",
+            "family": 0
+          },
+          "nodes": 167,
+          "leaves": 84,
+          "witness_vectors": 20,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 3,
+          "max_abs_integer_negative_coordinate": 2,
+          "strict_upper_bound": true,
+          "verified_exactly": true
+        },
+        {
+          "domain": {
+            "kind": "diagonal",
+            "family": 1
+          },
+          "nodes": 159,
+          "leaves": 80,
+          "witness_vectors": 25,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 3,
+          "max_abs_integer_negative_coordinate": 2,
+          "strict_upper_bound": true,
+          "verified_exactly": true
+        },
+        {
+          "domain": {
+            "kind": "diagonal",
+            "family": 2
+          },
+          "nodes": 171,
+          "leaves": 86,
+          "witness_vectors": 31,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 3,
+          "max_abs_integer_negative_coordinate": 2,
+          "strict_upper_bound": true,
+          "verified_exactly": true
+        }
+      ]
+    },
+    "case22": {
+      "result": "All seven certificates and scalar comparisons verified exactly.",
+      "scope": "Reduced (m,K)=(2,2), using the BKR reduction and Macbeath lemma as mathematical inputs.",
+      "nodes": 23829,
+      "leaves": 11918,
+      "certificates": [
+        {
+          "file": "certificates/L2.json",
+          "sha256": "298230c6688a5ea5b3696c3dc3c485e4861829d3d5e4de3f233b82b22730161c",
+          "L": 2,
+          "nodes": 4383,
+          "leaves": 2192,
+          "vectors": 89,
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3.json",
+          "sha256": "8a512ce5aad27acf838140c08b4b142726273b0e5f582a1a324c796392247efd",
+          "L": 3,
+          "nodes": 8819,
+          "leaves": 4410,
+          "vectors": 90,
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L4.json",
+          "sha256": "b2921582868b6130b926df8a1cae75b7004d90cea38c38ee09f2efbfdbdd5770",
+          "L": 4,
+          "nodes": 10509,
+          "leaves": 5255,
+          "vectors": 108,
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_0.json",
+          "sha256": "88079b5a5047fee5b156fcfc5860dd7170c289b51743c0766dc1fdcc69adbc39",
+          "family": 0,
+          "nodes": 35,
+          "leaves": 18,
+          "witness_pairs": 12,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_1.json",
+          "sha256": "241431d61753a39f4e9981c727428c72b88a03596a174329990f35f9d3e89e23",
+          "family": 1,
+          "nodes": 25,
+          "leaves": 13,
+          "witness_pairs": 7,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_j": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_2.json",
+          "sha256": "0b2477c55f3844d6679c103b855191668e237a12dd45cf048ef0cacadada6cff",
+          "family": 2,
+          "nodes": 27,
+          "leaves": 14,
+          "witness_pairs": 8,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/family_3.json",
+          "sha256": "b89746d5a969d1c99f99c2cb055f216ad3c2b9084ef11bc7dc0490d8857ca686",
+          "family": 3,
+          "nodes": 31,
+          "leaves": 16,
+          "witness_pairs": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_j": 1,
+          "verified_exactly": true
+        }
+      ]
+    },
+    "case11": {
+      "result": "All four certificates and scalar comparisons verified exactly.",
+      "scope": "Reduced (m,K)=(1,1) at constant eight, using the mathematical domain and sign symmetry in gamma8_consolidated.pdf, Section 8.",
+      "target": "0 < Q <= (8|det Q|)^(1/5)",
+      "nodes": 4982,
+      "leaves": 2493,
+      "strict_zero_leaves": 184,
+      "certificates": [
+        {
+          "file": "certificates/L1_pp.json",
+          "sha256": "71f42d2190b876135e42e129aa0e9092f1f4850985ceaa3c824968e9e4e1cd25",
+          "L": 1,
+          "nodes": 785,
+          "leaves": 393,
+          "strict_zero_leaves": 48,
+          "vectors": 48,
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_pn.json",
+          "sha256": "53317367f3c3d0a6792cc3307eb73fb54c78a22eeab6a19060c59f1970858b7e",
+          "L": 1,
+          "nodes": 849,
+          "leaves": 425,
+          "strict_zero_leaves": 53,
+          "vectors": 55,
+          "max_abs_j": 4,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L2_pp.json",
+          "sha256": "77224fa0b322ab28fde96f192e674f8cbbd8238923edb4c5d26e2a8554be604c",
+          "L": 2,
+          "nodes": 1603,
+          "leaves": 802,
+          "strict_zero_leaves": 40,
+          "vectors": 103,
+          "max_abs_j": 5,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L2_pn.json",
+          "sha256": "5366269ef85130ca209dfd1bb7eccb943bc6e512d2a7c4d1127949220cf5cf24",
+          "L": 2,
+          "nodes": 1745,
+          "leaves": 873,
+          "strict_zero_leaves": 43,
+          "vectors": 93,
+          "max_abs_j": 4,
+          "verified_exactly": true
+        }
+      ]
+    },
+    "case12": {
+      "result": "All 22 certificates and scalar comparisons verified exactly.",
+      "scope": "Reduced (m,K)=(1,2), with the analytic reductions in gamma8_consolidated.pdf, Section 9.",
+      "nodes": 19104,
+      "leaves": 9563,
+      "strict_zero_leaves": 197,
+      "certificates": [
+        {
+          "file": "certificates/L2_pp.json",
+          "sha256": "f107d2c889ed4de6c76a980fa4c487f4a0c86dbbacaa9e579b9f63d6be60c7f3",
+          "kind": "ternary",
+          "L": 2,
+          "nodes": 2399,
+          "leaves": 1200,
+          "strict_zero_leaves": 56,
+          "vectors": 118,
+          "max_abs_j": 6,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L2_pn.json",
+          "sha256": "daffa0f3e13554536401e6da963c3dbd75f6fe5864aa206f8ff70eb1e1aa5812",
+          "kind": "ternary",
+          "L": 2,
+          "nodes": 2425,
+          "leaves": 1213,
+          "strict_zero_leaves": 73,
+          "vectors": 137,
+          "max_abs_j": 6,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L4_pp.json",
+          "sha256": "759d758f62e02a93b9f8565b0c38eac3d34bc9a980b965a2c6fe5e578297261b",
+          "kind": "ternary",
+          "L": 4,
+          "nodes": 893,
+          "leaves": 447,
+          "strict_zero_leaves": 0,
+          "vectors": 64,
+          "max_abs_j": 4,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L4_pn.json",
+          "sha256": "f38715309ffd13e35ab0000ca255a26760e3df008ef4f3cdc2527744874eb6bc",
+          "kind": "ternary",
+          "L": 4,
+          "nodes": 827,
+          "leaves": 414,
+          "strict_zero_leaves": 0,
+          "vectors": 65,
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_outer_pp.json",
+          "sha256": "9216f842230b921c22b806184ac75b0645e476f9e6664f7e700a48846183b81b",
+          "kind": "ternary",
+          "L": 1,
+          "nodes": 407,
+          "leaves": 204,
+          "strict_zero_leaves": 0,
+          "vectors": 33,
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_outer_pn.json",
+          "sha256": "e1fe9ed6e50a6adfaf308cd4ecee2abc2acc928f4e8ce7bf2555eaac7570f282",
+          "kind": "ternary",
+          "L": 1,
+          "nodes": 369,
+          "leaves": 185,
+          "strict_zero_leaves": 0,
+          "vectors": 31,
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_A_low_pp.json",
+          "sha256": "c50610fc2e28e6fb1880ba8a89a33f1328b0233b4d5f111a583f440b05828b79",
+          "kind": "ternary",
+          "L": 1,
+          "nodes": 97,
+          "leaves": 49,
+          "strict_zero_leaves": 0,
+          "vectors": 20,
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_A_low_pn.json",
+          "sha256": "2d1aae62d143724f310bc38b5c4d5c9ff456c54efa7e3f34b526f4fa8f35017f",
+          "kind": "ternary",
+          "L": 1,
+          "nodes": 97,
+          "leaves": 49,
+          "strict_zero_leaves": 0,
+          "vectors": 20,
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_A_high_pp.json",
+          "sha256": "0bad12a000e864c82d36ed92dbaa7cf0f29b73a48a7b9000ceaf78f9038560ff",
+          "kind": "ternary",
+          "L": 1,
+          "nodes": 155,
+          "leaves": 78,
+          "strict_zero_leaves": 3,
+          "vectors": 32,
+          "max_abs_j": 9,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L1_A_high_pn.json",
+          "sha256": "46a874ece20fd5c3291997e401bb43effeecd59f8210e6abc3ec94d7292f2dc7",
+          "kind": "ternary",
+          "L": 1,
+          "nodes": 187,
+          "leaves": 94,
+          "strict_zero_leaves": 2,
+          "vectors": 38,
+          "max_abs_j": 6,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3_high_pp.json",
+          "sha256": "a3df7099c9bd41c97134985c3929e61b971a40b63930e2842ae26dc368a86b69",
+          "kind": "ternary",
+          "L": 3,
+          "nodes": 2403,
+          "leaves": 1202,
+          "strict_zero_leaves": 27,
+          "vectors": 192,
+          "max_abs_j": 12,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3_high_pn.json",
+          "sha256": "d0d51b690e0a620d53709667846bd956acca4ce9cabece1144592082a1369abd",
+          "kind": "ternary",
+          "L": 3,
+          "nodes": 2473,
+          "leaves": 1237,
+          "strict_zero_leaves": 26,
+          "vectors": 207,
+          "max_abs_j": 10,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3_low_ppa.json",
+          "sha256": "af8ae21914e68fa1d657b6a76af31460b1ac0068bb4c36295d3390ad4ce63291",
+          "kind": "ternary",
+          "L": 3,
+          "nodes": 789,
+          "leaves": 395,
+          "strict_zero_leaves": 0,
+          "vectors": 63,
+          "max_abs_j": 4,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3_low_ppb.json",
+          "sha256": "9b918cfd69a726d59597c990d9b88fdbf3f98c4aa5b811970351ac529ee5ed03",
+          "kind": "ternary",
+          "L": 3,
+          "nodes": 1521,
+          "leaves": 761,
+          "strict_zero_leaves": 0,
+          "vectors": 115,
+          "max_abs_j": 11,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3_low_pna.json",
+          "sha256": "554d83c4d16951b1679fb9c45d256ad5fc3db46e64a57e694f52554df4fd63c9",
+          "kind": "ternary",
+          "L": 3,
+          "nodes": 955,
+          "leaves": 478,
+          "strict_zero_leaves": 0,
+          "vectors": 70,
+          "max_abs_j": 4,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/L3_low_pnb.json",
+          "sha256": "67f17ae2d997479024026f3cb53e00600615a650773c65f96212c509e10d4de2",
+          "kind": "ternary",
+          "L": 3,
+          "nodes": 1513,
+          "leaves": 757,
+          "strict_zero_leaves": 0,
+          "vectors": 97,
+          "max_abs_j": 10,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/four_0.json",
+          "sha256": "5b042761a97b202aa23394b51bc0b7fbdb23a2513eaa2e3841c9b2aac5884c69",
+          "kind": "four-family",
+          "family": 0,
+          "nodes": 47,
+          "leaves": 24,
+          "witness_pairs": 17,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/four_1.json",
+          "sha256": "3112065c81c00f3441d8824e23c2bf6e554149d18dfe89a6995f510baf3360e7",
+          "kind": "four-family",
+          "family": 1,
+          "nodes": 43,
+          "leaves": 22,
+          "witness_pairs": 13,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/four_2.json",
+          "sha256": "f034ab400f61cb584e782b96a34f9f2281027b5c4f5e5fc4dbfd3f9ef7e6cf09",
+          "kind": "four-family",
+          "family": 2,
+          "nodes": 41,
+          "leaves": 21,
+          "witness_pairs": 12,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 1,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/four_3.json",
+          "sha256": "90069be504bd95b4d651eadb470da4cd95f4410ece819ef223cb9ebeb4e90f92",
+          "kind": "four-family",
+          "family": 3,
+          "nodes": 29,
+          "leaves": 15,
+          "witness_pairs": 10,
+          "x2_values": [
+            -2,
+            -1,
+            1,
+            2
+          ],
+          "max_abs_j": 2,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/resonance_0.json",
+          "sha256": "4e520d345cab15d86fe4cc69086da21b93831368803d086755122a541fc0803d",
+          "kind": "binary resonance",
+          "family": 0,
+          "nodes": 647,
+          "leaves": 324,
+          "strict_zero_leaves": 5,
+          "vectors": 80,
+          "x2_values": [
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 3,
+          "verified_exactly": true
+        },
+        {
+          "file": "certificates/resonance_1.json",
+          "sha256": "c3de35045bbbea1e58ef322a9c8c18505a3dfe19172c80e05043cc472d7155a8",
+          "kind": "binary resonance",
+          "family": 1,
+          "nodes": 787,
+          "leaves": 394,
+          "strict_zero_leaves": 5,
+          "vectors": 90,
+          "x2_values": [
+            -4,
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "max_abs_j": 3,
+          "verified_exactly": true
+        }
+      ]
+    }
+  },
+  "python_version": "3.12.14",
+  "elapsed_seconds": 12.8
+}

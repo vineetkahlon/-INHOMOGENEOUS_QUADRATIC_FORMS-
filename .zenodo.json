@@ -1,0 +1,9 @@
+{
+  "title": "Verification data for: Positive values of inhomogeneous quadratic forms of type (1,4): the constant Gamma_{1,4} = 8",
+  "upload_type": "dataset",
+  "description": "Exact rational certificates (Farkas trees, dyadic witness covers) and standard-library Python verifiers for the proof that Gamma_{1,4} = 8. Run python3 verify_release.py.",
+  "creators": [{"name": "[Surname, Given name]", "affiliation": "[Affiliation]"}],
+  "keywords": ["inhomogeneous quadratic forms", "geometry of numbers", "computer-assisted proof", "Farkas certificates"],
+  "license": "[cc-by-4.0]",
+  "related_identifiers": [{"identifier": "[arXiv id]", "relation": "isSupplementTo", "scheme": "arxiv"}]
+}

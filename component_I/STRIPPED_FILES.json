@@ -1,0 +1,26 @@
+{
+ "note": "Manuscript drafts removed from the October 26 archive before public release. No certificate, model generator or checker was changed; the two internal hash lists were edited only to drop these entries.",
+ "removed_files_sha256": {
+  "verification/base/gamma8_consolidated/gamma8_consolidated.pdf": "3edc0fc894c64fffe71a7ec71c8ac246f165aa5f22d5bb914451b4ec1cb9a422",
+  "verification/base/gamma8_consolidated/gamma8_consolidated.tex": "c73ab476d3a371468c0ac4596d64595f24655e4e769f44130ceedd8d3ab3ab72",
+  "verification/base/gamma8_consolidated/build_manuscript.sh": "222a7bc95b068e60435666627c3b31c2f6b3a56130f337792a88e82eec032929",
+  "verification/replacements/gamma14_independent_case_theorems/_status_cover.pdf": "70ae7eac4e6ea489742301a755b1444a701386a1c0c4118a6a24a728b2054264",
+  "verification/replacements/gamma14_independent_case_theorems/gamma14_independent_case_theorems_compendium.pdf": "b57860a0f367b619016d2de1486684be36500da7ceaba7750b1141db86126d3e",
+  "verification/replacements/gamma14_independent_case_theorems/_make_compendium.py": "631b6d681b3f51e42f0d138dca5cd7faab0bd02bcfc9ab3b41518f49147e663e",
+  "verification/replacements/gamma14_independent_case_theorems/base/gamma14.pdf": "19478956a73ea133ceadd02ca6128502eae6810097b3397b5d2c0dc55f9e864a",
+  "verification/replacements/gamma14_independent_case_theorems/supplements/case23_independent_proof.tex": "5f7b3d8006a790f1ff43d0333f1273ce19a3e1a4ec4d6d8fcabbbae46417e2d2",
+  "verification/replacements/gamma14_independent_case_theorems/supplements/bkr_cases_41_31_note.pdf": "30c65f813113f35ed11f110f9ea142c4e36db5128619777018e564143c4b568b",
+  "verification/replacements/gamma14_independent_case_theorems/supplements/bkr_cases_41_31_note.tex": "69ae389c5bf163a1dd0c25d35985174d1232c6b0cd34197375e11153dc47f11c",
+  "verification/replacements/gamma14_independent_case_theorems/supplements/bkr_cases_32_24_note.pdf": "129f9d42b3b55c892fb7ab79804cd49fd49b7aecaa077141ed03ddc92f9b8c24",
+  "verification/replacements/gamma14_independent_case_theorems/supplements/bkr_cases_32_24_note.tex": "a17c089b6493c053bad1c85729c19bb5d6ad3068845fc3e763cfe8e19a99d99d",
+  "verification/replacements/gamma14_independent_case_theorems/supplements/case23_independent_proof.pdf": "e8f5a4b3333e4b68a9a24297c9d458a2e5d09471775c30cd68e057d5b8016eae"
+ },
+ "base_manifest_entries": [
+  159,
+  156
+ ],
+ "replacements_SHA256SUMS_lines": [
+  31,
+  23
+ ]
+}

@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "scope": "(m,K)=(2,3), L=1,...,6",
+  "scalar_comparisons": {
+    "status": "PASS",
+    "scope": "rational bounds used in all L=1..6 reductions"
+  },
+  "uniform_gap_lemmas": [
+    {
+      "box": "L1_A_low",
+      "max_circular_gap": "57/100",
+      "collision_and_boundary_lines": 70,
+      "exact_arrangement_vertices": 135,
+      "maximizers": [
+        [
+          "157/1000",
+          "157/1000"
+        ]
+      ]
+    },
+    {
+      "box": "L1_A_high",
+      "max_circular_gap": "3/5",
+      "collision_and_boundary_lines": 74,
+      "exact_arrangement_vertices": 149,
+      "maximizers": [
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "1/5",
+          "1/5"
+        ],
+        [
+          "2/5",
+          "1/5"
+        ]
+      ]
+    },
+    {
+      "box": "L3_t_low",
+      "max_circular_gap": "23/40",
+      "collision_and_boundary_lines": 68,
+      "exact_arrangement_vertices": 125,
+      "maximizers": [
+        [
+          "63/400",
+          "63/400"
+        ]
+      ]
+    },
+    {
+      "box": "L3_t_high",
+      "max_circular_gap": "3/5",
+      "collision_and_boundary_lines": 76,
+      "exact_arrangement_vertices": 213,
+      "maximizers": [
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "1/5",
+          "1/5"
+        ],
+        [
+          "2/5",
+          "1/5"
+        ]
+      ]
+    },
+    {
+      "box": "L4_t_full",
+      "max_circular_gap": "1/2",
+      "collision_and_boundary_lines": 77,
+      "exact_arrangement_vertices": 193,
+      "maximizers": [
+        [
+          "0",
+          "1/8"
+        ],
+        [
+          "1/4",
+          "1/8"
+        ],
+        [
+          "1/2",
+          "1/8"
+        ]
+      ]
+    }
+  ],
+  "resonance_certificates": [
+    {
+      "L": 1,
+      "type": "G",
+      "e": "0",
+      "c": "1/2",
+      "leaves": 124,
+      "internal": 41,
+      "max_depth": 6,
+      "max_abs_n": 3,
+      "max_abs_z": 8,
+      "max_abs_j": 29
+    },
+    {
+      "L": 1,
+      "type": "F",
+      "e": "1/6",
+      "c": "0",
+      "leaves": 106,
+      "internal": 35,
+      "max_depth": 6,
+      "max_abs_n": 3,
+      "max_abs_z": 8,
+      "max_abs_j": 12
+    },
+    {
+      "L": 1,
+      "type": "F",
+      "e": "0",
+      "c": "1/2",
+      "leaves": 88,
+      "internal": 29,
+      "max_depth": 7,
+      "max_abs_n": 4,
+      "max_abs_z": 8,
+      "max_abs_j": 10
+    },
+    {
+      "L": 2,
+      "type": "G",
+      "e": "0",
+      "c": "0",
+      "leaves": 76,
+      "internal": 25,
+      "max_depth": 7,
+      "max_abs_n": 5,
+      "max_abs_z": 8,
+      "max_abs_j": 17
+    },
+    {
+      "L": 2,
+      "type": "G",
+      "e": "1/4",
+      "c": "1/2",
+      "leaves": 88,
+      "internal": 29,
+      "max_depth": 4,
+      "max_abs_n": 2,
+      "max_abs_z": 8,
+      "max_abs_j": 16
+    },
+    {
+      "L": 3,
+      "type": "G",
+      "e": "1/6",
+      "c": "0",
+      "leaves": 124,
+      "internal": 41,
+      "max_depth": 7,
+      "max_abs_n": 3,
+      "max_abs_z": 8,
+      "max_abs_j": 12
+    },
+    {
+      "L": 3,
+      "type": "G",
+      "e": "0",
+      "c": "1/2",
+      "leaves": 64,
+      "internal": 21,
+      "max_depth": 5,
+      "max_abs_n": 2,
+      "max_abs_z": 8,
+      "max_abs_j": 10
+    }
+  ],
+  "third_completion_certificates": [
+    {
+      "L": 5,
+      "type": "H",
+      "e": null,
+      "c": null,
+      "leaves": 82,
+      "internal": 27,
+      "max_depth": 7,
+      "max_abs_n": 5,
+      "max_abs_z": 0,
+      "max_abs_j": 3
+    },
+    {
+      "L": 6,
+      "type": "H",
+      "e": null,
+      "c": null,
+      "leaves": 58,
+      "internal": 19,
+      "max_depth": 5,
+      "max_abs_n": 3,
+      "max_abs_z": 0,
+      "max_abs_j": 2
+    }
+  ],
+  "totals": {
+    "exact_gap_boxes": 5,
+    "quadtree_certificates": 9,
+    "terminal_rectangles": 810,
+    "internal_nodes": 267
+  }
+}

@@ -1,0 +1,155 @@
+{
+ "_comment": "Component-I Farkas trees used by the paper (Sections 7-8, Appendix A). Paths are relative to component_I/ (the root of the October 26 archive, which contains verify_end_to_end.py). The sha256 values are pinned from the archive's replay report of 2026-10-29 (component_I_reference_replay_2026-10-29.json); make_manifest.py and verify_release.py refuse a component I whose used trees differ. Node counts are those stated in the paper; each was confirmed by counting the tree files themselves (25 trees, 23,753 nodes, 11,889 leaves).",
+ "used": [
+  {
+   "case": "(2,1) low A, ternary, k>=0",
+   "lemma": "7.1",
+   "nodes": 561,
+   "path": "verification/base/gamma8_consolidated/case21/certificates/low_plus.json",
+   "sha256": [
+    "4c3d653cbc6c5b637394acd530a4aa4f6f61f93e22f8faa79e2ef0d3d4422364"
+   ]
+  },
+  {
+   "case": "(2,1) low A, ternary, k<=0",
+   "lemma": "7.1",
+   "nodes": 489,
+   "path": "verification/base/gamma8_consolidated/case21/certificates/low_minus.json",
+   "sha256": [
+    "4b0571e7b6e853b1f1d601d41320200dec54b3ea162141ea1b24b5ea7fe7465e"
+   ]
+  },
+  {
+   "case": "(2,1) diagonal family 1",
+   "lemma": "7.2",
+   "nodes": 167,
+   "path": "verification/base/gamma8_consolidated/case21/certificates/diagonal_0.json",
+   "sha256": [
+    "62c29ae32109c61145c7bab5a1a3d349eb07381ca8c42c65ed6194b5331d0209"
+   ]
+  },
+  {
+   "case": "(2,1) diagonal family 2",
+   "lemma": "7.2",
+   "nodes": 159,
+   "path": "verification/base/gamma8_consolidated/case21/certificates/diagonal_1.json",
+   "sha256": [
+    "e434d85009bd64d983853d0d1af9daddb7da86a32e37c5b2216e1c6a09f9d23f"
+   ]
+  },
+  {
+   "case": "(2,1) diagonal family 3",
+   "lemma": "7.2",
+   "nodes": 171,
+   "path": "verification/base/gamma8_consolidated/case21/certificates/diagonal_2.json",
+   "sha256": [
+    "ba19cf5466cf5bdfa90bdd4966591b3d2c96ac4907626aa009cb27eb31120e5c"
+   ]
+  },
+  {
+   "case": "(1,1) L=1, k in [0,1/2]",
+   "theorem": "8.1",
+   "nodes": 785,
+   "path": "verification/base/gamma8_consolidated/case11/certificates/L1_pp.json",
+   "sha256": [
+    "71f42d2190b876135e42e129aa0e9092f1f4850985ceaa3c824968e9e4e1cd25"
+   ]
+  },
+  {
+   "case": "(1,1) L=1, k in [-1/2,0]",
+   "theorem": "8.1",
+   "nodes": 849,
+   "path": "verification/base/gamma8_consolidated/case11/certificates/L1_pn.json",
+   "sha256": [
+    "53317367f3c3d0a6792cc3307eb73fb54c78a22eeab6a19060c59f1970858b7e"
+   ]
+  },
+  {
+   "case": "(1,1) L=2, k in [0,1/2]",
+   "theorem": "8.1",
+   "nodes": 1603,
+   "path": "verification/base/gamma8_consolidated/case11/certificates/L2_pp.json",
+   "sha256": [
+    "77224fa0b322ab28fde96f192e674f8cbbd8238923edb4c5d26e2a8554be604c"
+   ]
+  },
+  {
+   "case": "(1,1) L=2, k in [-1/2,0]",
+   "theorem": "8.1",
+   "nodes": 1745,
+   "path": "verification/base/gamma8_consolidated/case11/certificates/L2_pn.json",
+   "sha256": [
+    "5366269ef85130ca209dfd1bb7eccb943bc6e512d2a7c4d1127949220cf5cf24"
+   ]
+  },
+  {
+   "case": "(1,2) ternary regions (14 trees; L=2, L1_outer, L1_A_low, L1_A_high, L3_low (4), L3_high)",
+   "theorem": "8.3",
+   "nodes": 15790,
+   "path": "verification/base/gamma8_consolidated/case12/certificates/L1_outer_pp.json;verification/base/gamma8_consolidated/case12/certificates/L1_outer_pn.json;verification/base/gamma8_consolidated/case12/certificates/L1_A_low_pp.json;verification/base/gamma8_consolidated/case12/certificates/L1_A_low_pn.json;verification/base/gamma8_consolidated/case12/certificates/L1_A_high_pp.json;verification/base/gamma8_consolidated/case12/certificates/L1_A_high_pn.json;verification/base/gamma8_consolidated/case12/certificates/L2_pp.json;verification/base/gamma8_consolidated/case12/certificates/L2_pn.json;verification/base/gamma8_consolidated/case12/certificates/L3_low_ppa.json;verification/base/gamma8_consolidated/case12/certificates/L3_low_ppb.json;verification/base/gamma8_consolidated/case12/certificates/L3_low_pna.json;verification/base/gamma8_consolidated/case12/certificates/L3_low_pnb.json;verification/base/gamma8_consolidated/case12/certificates/L3_high_pp.json;verification/base/gamma8_consolidated/case12/certificates/L3_high_pn.json",
+   "count": 14,
+   "sha256": [
+    "9216f842230b921c22b806184ac75b0645e476f9e6664f7e700a48846183b81b",
+    "e1fe9ed6e50a6adfaf308cd4ecee2abc2acc928f4e8ce7bf2555eaac7570f282",
+    "c50610fc2e28e6fb1880ba8a89a33f1328b0233b4d5f111a583f440b05828b79",
+    "2d1aae62d143724f310bc38b5c4d5c9ff456c54efa7e3f34b526f4fa8f35017f",
+    "0bad12a000e864c82d36ed92dbaa7cf0f29b73a48a7b9000ceaf78f9038560ff",
+    "46a874ece20fd5c3291997e401bb43effeecd59f8210e6abc3ec94d7292f2dc7",
+    "f107d2c889ed4de6c76a980fa4c487f4a0c86dbbacaa9e579b9f63d6be60c7f3",
+    "daffa0f3e13554536401e6da963c3dbd75f6fe5864aa206f8ff70eb1e1aa5812",
+    "af8ae21914e68fa1d657b6a76af31460b1ac0068bb4c36295d3390ad4ce63291",
+    "9b918cfd69a726d59597c990d9b88fdbf3f98c4aa5b811970351ac529ee5ed03",
+    "554d83c4d16951b1679fb9c45d256ad5fc3db46e64a57e694f52554df4fd63c9",
+    "67f17ae2d997479024026f3cb53e00600615a650773c65f96212c509e10d4de2",
+    "a3df7099c9bd41c97134985c3929e61b971a40b63930e2842ae26dc368a86b69",
+    "d0d51b690e0a620d53709667846bd956acca4ce9cabece1144592082a1369abd"
+   ]
+  },
+  {
+   "case": "(1,2) L=3 coupled binary, (e,c)=(1/6,0)",
+   "theorem": "8.3",
+   "nodes": 647,
+   "path": "verification/base/gamma8_consolidated/case12/certificates/resonance_0.json",
+   "sha256": [
+    "4e520d345cab15d86fe4cc69086da21b93831368803d086755122a541fc0803d"
+   ]
+  },
+  {
+   "case": "(1,2) L=3 coupled binary, (e,c)=(0,1/2)",
+   "theorem": "8.3",
+   "nodes": 787,
+   "path": "verification/base/gamma8_consolidated/case12/certificates/resonance_1.json",
+   "sha256": [
+    "c3de35045bbbea1e58ef322a9c8c18505a3dfe19172c80e05043cc472d7155a8"
+   ]
+  }
+ ],
+ "superseded": [
+  {
+   "what": "72 large-a Farkas trees (large_a/)",
+   "replaced_by": "component II dyadic covers, Prop. 3.4"
+  },
+  {
+   "what": "7 (2,2) Farkas trees (case22/)",
+   "replaced_by": "Sections 6.3-6.4, Theorem 6.1, component II"
+  },
+  {
+   "what": "4 (1,2) L=1 fixed-family trees (case12/certificates/four_0..3.json)",
+   "replaced_by": "component II dyadic covers"
+  },
+  {
+   "what": "case12/certificates/L4_pp.json, L4_pn.json (1,720 nodes)",
+   "replaced_by": "Lemma 2.10 (high-quotient closure)"
+  }
+ ],
+ "expected_totals": {
+  "trees": 25,
+  "nodes": 23753,
+  "leaves": 11889
+ },
+ "superseded_files_count": {
+  "large_a": 72,
+  "case22": 7,
+  "case12": 6
+ }
+}
