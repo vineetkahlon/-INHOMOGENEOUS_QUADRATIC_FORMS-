@@ -1,10 +1,11 @@
 cff-version: 1.2.0
-message: "If you use these data, please cite the paper and this release."
-title: "Verification data for: Positive values of inhomogeneous quadratic forms of type (1,4): the constant Gamma_{1,4} = 8"
+message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Kahlon"
-    given-names: "Vineet"
-version: "1.0.0"
-doi: "[to be assigned by Zenodo]"
-date-released: "[2026-10-30]"
-license: "CC-BY-4.0 for data, MIT for code"
+  - family-names: Kahlon
+    given-names: Vineet
+title: "-INHOMOGENEOUS_QUADRATIC_FORMS-"
+version: 1.0.2
+date-released: "2026-10-29"
+license: CC-BY-4.0
+repository-code: "https://github.com/vineetkahlon/-INHOMOGENEOUS_QUADRATIC_FORMS-"
+
